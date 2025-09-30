@@ -1,9 +1,0 @@
-a. Why does excessive use of if statements slow down a program?
-b. What does jne mean in assembly?
-c. What is the difference between compile time and run time?
-d. What is the return type of a comparison expression?
-e. Is else if a keyword combination in C++?
-f. What is the numerical value of nullptr in C++?
-g. What happens if you leave out the condition part of a for loop blank?
-h. What is the difference between a while loop and a do-while loop?
-i. What is the difference between the use of continue and break?
