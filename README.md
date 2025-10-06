@@ -1,6 +1,7 @@
 # SDM252 Laboratory Repository
 
 This repository contains the laboratory code for the SDM252 course. 
+
 ## Repository Structure
 
 The repository is organized by weeks, with each week's laboratory work contained in its own directory:
