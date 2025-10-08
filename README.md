@@ -52,5 +52,16 @@ make assemble
 
 make preprocess
 ```
+## quiz-tool
+
+quiz-tool is a tool that can help you to select random questions from a question file.
+
+You can use the following command to run the quiz-tool:
+
+```
+cd quiz-tool
+python3 main.py questions.txt
+```
+
 ---
 *Last updated: 2025-10-08*
