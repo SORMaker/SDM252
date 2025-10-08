@@ -224,6 +224,9 @@ def load_questions(file_name):
     
     total_questions = len(questions)
     print(f"{Color.GREEN}成功加载 {total_questions} 个问题！{Color.RESET}\n")
+    for question in questions:
+        print(question)
+    input(f"{Color.CYAN}\n按任意键继续...{Color.RESET}")
     return questions
 
 # 随机选择问题功能
@@ -242,12 +245,11 @@ def exit_program():
     clear_screen()
     exit(0)
 
-# 主函数
-if __name__ == "__main__":
-    print_title(" 问题随机选择器")
+def main(file_name):
+    print_title(" 随机问题选择器")
     
     # 加载问题
-    questions = load_questions('week4.txt')
+    questions = load_questions(file_name)
     
     main_menu = [
         MenuItem("随机问题", action=lambda: random_question_selection(questions)),
@@ -256,3 +258,9 @@ if __name__ == "__main__":
     
     # 显示主菜单
     display_menu("主菜单", main_menu)
+
+if __name__ == "__main__":
+
+    question_file = sys.argv[1]
+
+    main(question_file)

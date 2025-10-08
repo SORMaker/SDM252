@@ -11,6 +11,7 @@ SDM252/
 ├── week2/        # Week 2 laboratory code
 ├── week3/        # Week 3 laboratory code
 ├── week4/        # Week 4 laboratory code
+├── week5/        # Week 5 laboratory code
 ├── ...           # Future weeks will be added here
 ├── .gitignore    # Git ignore file
 ├── LICENSE       # License file
@@ -52,4 +53,4 @@ make assemble
 make preprocess
 ```
 ---
-*Last updated: 2025-09-28*
+*Last updated: 2025-10-08*
