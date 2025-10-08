@@ -1,0 +1,7 @@
+a. Explain why “the ternary operator is usually used for a conditional assignment”.
+b. What are pointers?
+c. What is smallest unit of data that can be uniquely addressed?
+d. Is 0 a valid memory address? If not, can 0 be a valid value for a pointer?
+e. What is a typeless pointer and what is a null pointer?
+f. What are the two most important operators that work with pointers?
+g. What does the type of a pointer indicate and what is its use?
