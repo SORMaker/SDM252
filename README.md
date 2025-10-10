@@ -8,6 +8,8 @@ The repository is organized by weeks, with each week's laboratory work contained
 
 ```
 SDM252/
+|── assignment/   # Assignments
+|── quiz-tool/    # Quiz tool
 ├── week2/        # Week 2 laboratory code
 ├── week3/        # Week 3 laboratory code
 ├── week4/        # Week 4 laboratory code
@@ -64,4 +66,4 @@ python3 main.py questions.txt
 ```
 
 ---
-*Last updated: 2025-10-08*
+*Last updated: 2025-10-10*

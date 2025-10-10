@@ -179,12 +179,17 @@ void guess_seq_game(int seq_size){
 
 int main(){
 
-    const int seq_size = 18;
+    // const int seq_size = 18;
 
     // print_all(seq_size);
 
-    guess_seq_game(seq_size);
+    // guess_seq_game(seq_size);
 
+    char* buffer = new char[8];
+    memset(buffer, 1, 8);
 
+    char** ptr = &buffer;
+
+    delete[] buffer;
     return 0;
 }
