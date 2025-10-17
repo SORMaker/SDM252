@@ -62,7 +62,7 @@ def print_title(title, color=Color.BG_BLUE + Color.WHITE + Color.BOLD):
     print_separator()
     terminal_width = get_terminal_width()
     padding = max(0, (terminal_width - len(title))) // 2
-    print(f"{color}{' ' * (padding - len(title)//2 - 1)}{title}{' ' * (padding - len(title)//2)}{Color.RESET}")
+    print(f"{color}{' ' * (padding - len(title)//2 - 1)}{title}{' ' * (padding - len(title)//2 + 2)}{Color.RESET}")
     print_separator()
 
 # 打印加载动画
@@ -231,6 +231,8 @@ def load_questions(file_name):
 
 # 随机选择问题功能
 def random_question_selection(questions):
+    clear_line()
+    print_title(" 问题随机选择器")
     print_loading("正在随机选择问题")
     random_question = random.choice(questions)
     print_question_card(random_question)

@@ -94,7 +94,7 @@ void print_all(int seq_size){
 void guess_seq_game(int seq_size){
     int elem_vals[] = {
         1,2,3, 3,4,7, 2,5,12, 
-        3,6,10, 4,9,16, 5,12,22, 1,2
+        3,6,10, 4,9,16, 5,12,22,
     };
 
     vector<int> elem_seq(elem_vals, elem_vals + seq_size);
@@ -179,17 +179,17 @@ void guess_seq_game(int seq_size){
 
 int main(){
 
-    // const int seq_size = 18;
+    const int seq_size = 18;
 
-    // print_all(seq_size);
+    print_all(seq_size);
 
-    // guess_seq_game(seq_size);
+    guess_seq_game(seq_size);
 
-    char* buffer = new char[8];
-    memset(buffer, 1, 8);
+    // char* buffer = new char[8];
+    // memset(buffer, 1, 8);
 
-    char** ptr = &buffer;
+    // char** ptr = &buffer;
 
-    delete[] buffer;
+    // delete[] buffer;
     return 0;
 }
