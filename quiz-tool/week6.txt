@@ -1,0 +1,11 @@
+a. What is relation between pointers and references?
+b. Are references themselves new variables? Do they occupy memory?
+c. What is difference between pass by value and pass by reference?
+d. How does the compiler treat a reference?
+e. Explain the advantages of using a reference over using a pointer?
+f. Can you create an uninitialized reference first and later use it to reference a variable?
+g. Why do you need a class instead of a bunch of variables?
+h. What does a class consist of?
+i. What is the purpose of introducing classes in C++?
+j. What is the technical difference between a class and a struct?
+k. Why do we keep the use of the struct in C++?
