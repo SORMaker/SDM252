@@ -14,6 +14,8 @@ SDM252/
 ├── week3/        # Week 3 laboratory code
 ├── week4/        # Week 4 laboratory code
 ├── week5/        # Week 5 laboratory code
+├── week6/        # Week 6 laboratory code
+├── week7/        # Week 7 laboratory code
 ├── ...           # Future weeks will be added here
 ├── .gitignore    # Git ignore file
 ├── LICENSE       # License file
@@ -64,6 +66,3 @@ You can use the following command to run the quiz-tool:
 cd quiz-tool
 python3 main.py questions.txt
 ```
-
----
-*Last updated: 2025-10-10*
