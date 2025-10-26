@@ -1,0 +1,12 @@
+a.A string is basically an array of what? 
+b.What is a C style string?
+c.What indicates the end of a string?
+d.What is the difference between 0, ‘0’, and ‘\0’?
+e.What is the relation between std::string and std::basic_string? 
+f.What is the best way to pass a string into a read-only function?
+g.What is a typical size of a stack?
+h.How are objects close to each other in the program stored in stack memory? 
+i.Why are stack allocation and stack deallocation extremely fast?
+j.What happens when a scope comes to an end?
+k.Why is heap allocation slow?
+l.When would you allocate an object on the heap?
