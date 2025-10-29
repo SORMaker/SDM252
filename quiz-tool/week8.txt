@@ -1,0 +1,12 @@
+a. Why is the console almost guaranteed to work?
+b. What does the m_ prefix convention imply for a member variable?
+c. Can you use multiple public or private keywords in the definition of a class?
+d. When should you use an enum type?
+e. What is the underlying data type of an enum type?
+f. What is the difference between the enum type and any integer type?
+g. Can a function and a variable share a name within the same namespace? What about in different namespaces?
+h. What is the primary use of a constructor?
+i. How does a constructor differ from another method performing the same task?
+j. What does the C++’s default constructor do?
+k. When will the destructor be called?
+l. What is the primary use of a destructor?
