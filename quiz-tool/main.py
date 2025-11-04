@@ -230,11 +230,16 @@ def load_questions(file_name):
     return questions
 
 # 随机选择问题功能
-def random_question_selection(questions):
+def random_question_selection(questions, available_questions):
     clear_line()
     print_title(" 问题随机选择器")
     print_loading("正在随机选择问题")
-    random_question = random.choice(questions)
+
+    if not available_questions:
+        available_questions.extend(questions)
+        random.shuffle(available_questions)
+    random_question = random.choice(available_questions)
+    available_questions.remove(random_question)
     print_question_card(random_question)
     show_cursor()  # 显示光标
     input(f"{Color.CYAN}\n按回车键继续...{Color.RESET}")
@@ -253,8 +258,10 @@ def main(file_name):
     # 加载问题
     questions = load_questions(file_name)
     
+    available_questions = [];
+
     main_menu = [
-        MenuItem("随机问题", action=lambda: random_question_selection(questions)),
+        MenuItem("随机问题", action=lambda: random_question_selection(questions, available_questions)),
         MenuItem("退出程序", action=exit_program)
     ]
     
