@@ -1,0 +1,10 @@
+a. What does the name of an array stand for and what is its type? 
+b. How are the elements of an array stored in memory?
+c. What is pointer arithmetic?
+d. What is the difference between an array allocated on the stack and an array allocated on the heap?
+e. What do you need to pay special attention to when using raw arrays?
+f. When you create an array on the stack, its size must be known at compile time. What about the heap?
+g. A good goal for software engineering is to avoid code duplication. What is the benefit of this achieving goal?
+h. What is a template? Is it a real function or a real class?
+i. When will a function or a class be created from its template? 
+j. Is it okay to invoke a template function without specifying the type in < >?
