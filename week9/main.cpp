@@ -73,7 +73,7 @@ void Lecture31()
 template <typename T>
 void Print(T value)
 {
-    cout << value << endl;
+    std::cout << value << std::endl;
 }
 
 template <typename T, int N>
