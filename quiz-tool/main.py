@@ -182,7 +182,7 @@ def display_menu(title, menu_items):
             for i, item in enumerate(menu_items):
                 if i == current_selection:
                     # 选中的项目
-                    print(f"{Color.BG_BLUE}{Color.WHITE}  {item.text}{Color.RESET}")
+                    print(f"  {Color.BG_BLUE}{Color.WHITE}{item.text}{Color.RESET}")
                 else:
                     print(f"  {item.text}")
             

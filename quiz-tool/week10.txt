@@ -1,0 +1,9 @@
+a. How does keyword auto work in C++? 
+b. Why you shouldn’t use auto too much?
+c. When it’s a good idea to use auto?
+d. Describe the use of the keyword using.
+e. What’s the difference between auto and auto&?
+f. Explain “just because you might be returning a reference, doesn't mean it's actually going to store it as a reference”.
+g. In void(*function)() = HelloWorld, identify the type, the name, and the initial value of the function pointer, respectively.
+h. Describe the use of the keyword typedef.
+i. What is the different between a lambda expression and a regular function?
