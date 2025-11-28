@@ -1,0 +1,11 @@
+a. When will you probably use using namespace? 
+b. Will you use using namespace in a header file?
+c. Explain the difference between const int* and int* const.
+d. What is the difference between a const member function and a non-const member function of a class?
+e. Why can’t you declare a setter as const?
+f. Interpret the restrictions on the getter const int* const GetX() const;
+g. What are the benefits of passing an object into a function by const reference?
+h. Why is there a need for const member functions?
+i. What is the use the mutable keyword in a class?
+j. Why should you use member initializer lists?
+k. What happens if you don’t initialize a class object in the member initializer list?
