@@ -1,0 +1,7 @@
+a. When should operator overloading be considered for a class?
+b. Where should the overloading of the output operator << for a class be defined and why?
+c. What is the difference between overloading a binary operator inside a class versus outside a class?
+d. How can a private member variable of a class be accessed by a non-member function?
+e. What is a shallow copy, and under what circumstances can it cause a program crash?
+f. What is required to implement a deep copy?
+g. What is the preferred way to pass an object into a function?

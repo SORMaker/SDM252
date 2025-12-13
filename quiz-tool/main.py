@@ -66,7 +66,7 @@ def print_title(title, color=Color.BG_BLUE + Color.WHITE + Color.BOLD):
     print_separator()
 
 # 打印加载动画
-def print_loading(message="正在处理", duration=1.5):
+def print_loading(message="正在处理", duration=0.5):
     chars = ["|", "/", "-", "\\"]
     end_time = time.time() + duration
     while time.time() < end_time:

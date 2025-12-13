@@ -1,0 +1,8 @@
+a. What does the static keyword mean in front of a variable or function defined at the file scope?
+b. How to declare and then use a file scope variable, which is defined in another .cpp file?
+c. What is the meaning of the static keyword when applied to a member variable or member function of a class or struct?
+d. static member variables are only declared within a class or struct. Where should they be defined?
+e. Why static member functions cannot access non-static member variables?
+f. What does the this keyword represent and refer to? 
+g. How does the this keyword differ between a const member function and a non-const member function?
+h. What is the scope and extent of a local static variable?
