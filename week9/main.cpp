@@ -160,11 +160,11 @@ int main(int argc, char *argv[])
 
     std::string param = argv[1];
 
-    if (param == "LectureMain")
+    if (param == "lmain")
     {
         LectureMain();
     }
-    else if (param == "TaskMain")
+    else if (param == "tmain")
     {
         TaskMain();
     }

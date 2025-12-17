@@ -55,6 +55,12 @@ make assemble
 # you can use make preprocess to preprocess the code and the .i file will be stored in build folder
 
 make preprocess
+
+# from week9, you should use the following cammand
+
+make run ARGS=lmain # lmain = lecturemain
+
+make run ARGS=tmain # tmain = taskmain
 ```
 ## quiz-tool
 
