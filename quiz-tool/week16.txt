@@ -1,0 +1,7 @@
+a. Why is it okay to pass a const char array into a function that requires an std::string?
+b. How many implicit conversions of an object are allowed in C++?
+c. When does a stack-based object get destroyed and when does a heap-based object get destroyed? 
+d. What is a scoped pointer?
+e. How to implement a scoped pointer class?
+f. How to overload the arrow operator for a scoped pointer class?
+g. List five member functions of std::vector.

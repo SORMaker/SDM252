@@ -1,0 +1,10 @@
+a. Explain how inheritance helps us avoid code duplication.
+b. Why does it make sense to use a Player class object wherever an Entity class object is used?
+c. What is the purpose of using virtual functions?
+d. How to use the override keyword and what are the associated benefits?
+e. Why can’t you instantiate an object of an interface class containing pure virtual functions? 
+f. When can you instantiate an object of a class derived from an interface class with pure virtual functions?
+g. Describe the visibility of private members.
+h. Describe the visibility of protected members.
+i. Explain the subtle difference between a virtual member function and a virtual destructor.
+j. When is there a need to declare a destructor of a class as virtual?

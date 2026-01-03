@@ -58,9 +58,9 @@ make preprocess
 
 # from week9, you should use the following cammand
 
-make run ARGS=lmain # lmain = lecturemain
+make run ARGS=lmain # lmain = lmain
 
-make run ARGS=tmain # tmain = taskmain
+make run ARGS=tmain # tmain = tmain
 ```
 ## quiz-tool
 
